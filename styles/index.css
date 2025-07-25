@@ -57,6 +57,7 @@ nav li a {
     white-space: nowrap;
     border-radius: 10px;
     border: none;
+    cursor: pointer;
 }
 
 header div {
@@ -179,6 +180,56 @@ section div h4 {
     padding: 24px;
     background-color: #FFFFFF;
     border-radius: 14px;
-    height: 243px;
+    height: 290px;
     width: 363px;
+}
+
+.contacts {
+    display: flex;
+    padding: 93px 114px 0 151px;
+    justify-content: space-between;
+}
+
+.h1111111 {
+    font-size: 97px;
+    font-weight: bold;
+    height: 232px;
+    width: 528px;
+}
+
+div form {
+    font-weight: 600;
+}
+
+label {
+    display: block;
+    margin-bottom: 10px;
+    font-size: 20px;
+}
+
+input, textarea {
+    margin-bottom: 20px;
+    border-radius: 10px;
+    width: 100%;
+    padding: 32px;
+    box-sizing: border-box;
+    border: none;
+    font-size: 20px;
+}
+
+.https {
+    width: 490px;
+    height: 797px;
+}
+
+.httpss {
+    padding: 19px 201px;
+}
+
+.button:hover {
+    color: #252432;
+    font-size: 20px;
+    padding: 5 10px 5 10px;
+    margin: 10px;
+    background-color: yellowgreen;
 }
