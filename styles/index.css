@@ -233,3 +233,36 @@ input, textarea {
     margin: 10px;
     background-color: yellowgreen;
 }
+
+
+/* Footer Style */
+
+.footer {
+    text-align: center;
+    padding: 105px 455px 0 455px;
+    height: 531px;
+    margin-bottom: 0;
+}
+
+.jjjj {
+    font-size: 100px;
+    margin-bottom: 0;
+}
+
+footer div p {
+    color: #8987A1;
+}
+
+footer div ul {
+    display: inline-flex;
+}
+
+footer div ul li {
+    list-style: none;
+    margin-right: 48px;
+}
+
+footer div ul li a {
+    text-decoration: none;
+    color: #8987A1;
+}
