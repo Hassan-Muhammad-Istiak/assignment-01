@@ -72,10 +72,22 @@ div button {
 /* Main Style */
 
 .action-parts {
-    margin: 116px 0 116px 0;
     display: flex;
     justify-content: space-between;
+    padding: 116px  159px 116px 141px;
 
+}
+
+.users {
+    padding: 0px  159px 0 141px;
+}
+
+.rattingss {
+    padding: 137px  159px 116px 141px;
+}
+
+.kpk {
+    padding: 0 0 26px 0;
 }
 
 div img {
@@ -91,8 +103,7 @@ main div p, button {
 }
 
 .hhh {
-    margin-left: 141px;
-    margin-right: 159px;
+    background-color: #e9ecf3;
 }
 
 .hpp {
@@ -126,4 +137,48 @@ main div p, button {
 
 .x {
     color: #757575;
+}
+
+section h2 {
+    text-align: center;
+    margin-top: 137px;
+    font-size: 42px;
+    font-weight: bold;
+}
+
+section h3 {
+    font-size: 33px;
+}
+
+section div p {
+    color: rgba(179, 179, 179, 1);
+    margin-top: 10px;
+    font-size: 19px;
+}
+
+section div h4 {
+    color: rgba(117, 117, 117, 1);
+    margin-bottom: 0;
+}
+
+.namess {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.ratings {
+    display: flex;
+    padding: 24px;
+    gap: 60px;
+    justify-content: center;
+    
+}
+
+.rating {
+    padding: 24px;
+    background-color: #FFFFFF;
+    border-radius: 14px;
+    height: 243px;
+    width: 363px;
 }
